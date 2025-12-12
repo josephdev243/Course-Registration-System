@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.course-card {
+  @apply bg-white rounded-lg shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
+
+.btn-danger {
+  @apply bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors;
+}
