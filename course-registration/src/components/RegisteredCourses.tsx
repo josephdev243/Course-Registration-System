@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { useEffect, useState, useCallback } from 'react';
 import { type Registration } from '../types';
 import { api } from '../services/api';
